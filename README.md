@@ -1,6 +1,6 @@
 # 🌐 Front-End Projects
 
-Welcome to my collection of front-end projects built using **HTML**, **CSS**, and **JavaScript**.  
+Welcome to my collection of front-end projects built using **HTML**, **CSS**, **JavaScript** and **React**.  
 These projects reflect my hands-on journey in mastering web development fundamentals.
 
 This repository is part of my personal roadmap to become top 1% developer, and I'm currently in the early stages — focused on building real-world mini apps and strengthening my front-end foundation.
