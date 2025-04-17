@@ -19,6 +19,14 @@ This repository is part of my personal roadmap to becoming, and I'm currently in
 | ⌛ Age Calculator | [View](https://yourusername.github.io/front-end-projects/projects/age_cal/) | HTML, CSS, JavaScript | ✅ Completed |
 | 🎧 Music Player | [View](https://yourusername.github.io/front-end-projects/projects/Music-Player/) | HTML, CSS, JavaScript | ✅ Completed |
 | 🧑‍⚕️ BMI Calculator | [View](https://yourusername.github.io/front-end-projects/projects/BMI-Calculator/) | HTML, CSS, JavaScript | ✅ Completed |
+| 📄 Text Utils | [View](https://YuvrajTayal1202.github.io/front-end-projects/projects/text-utils/) | HTML, CSS, JavaScript, React | 🛠️ In Progress |
+| ✅ To-Do App | [View](https://YuvrajTayal1202.github.io/front-end-projects/projects/To-Do-list/) | HTML, CSS, JavaScript | ✅ Completed |
+| ⌚ Stop Watch | [View](https://YuvrajTayal1202.github.io/front-end-projects/projects/Stop-Watch/) | HTML, CSS, JavaScript | ✅ Completed |
+| 🕰️ Clock | [View](https://YuvrajTayal1202.github.io/front-end-projects/projects/Clock/) | HTML, CSS, JavaScript | ✅ Completed |
+| 📱 Calculator | [View](https://YuvrajTayal1202.github.io/front-end-projects/projects/calculator/) | HTML, CSS, JavaScript | ✅ Completed |
+| ⌛ Age Calculator | [View](https://YuvrajTayal1202.github.io/front-end-projects/projects/age_cal/) | HTML, CSS, JavaScript | ✅ Completed |
+| 🎧 Music Player | [View](https://YuvrajTayal1202.github.io/front-end-projects/projects/Music-Player/) | HTML, CSS, JavaScript | ✅ Completed |
+| 🧑‍⚕️ BMI Calculator | [View](https://YuvrajTayal1202.github.io/front-end-projects/projects/BMI-Calculator/) | HTML, CSS, JavaScript | ✅ Completed |
 
 ---
 
