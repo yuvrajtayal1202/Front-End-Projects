@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto:wght@300&family=Source+Code+Pro:wght@200&display=swap');
+
+/* font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace; */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header start  */
+
+
+.nav {
+    display: flex;
+    /* align-items: center; */
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    /* cursor: pointer; */
+    transition: 0.s ease-in-out;
+    position: absolute;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+    width: 33.33vw;
+    justify-content: left;
+    cursor: pointer;
+
+}
+
+.left img {
+    width: 50px;
+    border-radius: 67px;
+    margin: 10px;
+    border: 4px solid rgb(41, 36, 36);
+}
+
+.left h3 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.mid {
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(51, 255, 0); */
+    width: 33.33vw;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.mid ul {
+    display: flex;
+}
+
+.mid ul li {
+    list-style: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.mid ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.mid ul li a:hover,
+.mid ul li a.active {
+    color: rgb(222, 132, 132);
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(255, 0, 0); */
+    width: 33.33vw;
+    justify-content: right;
+    cursor: pointer;
+}
+
+.right ul {
+    display: flex;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.right ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.right ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.right ul li a:hover,
+.right ul li a.active {
+    color: bisque;
+    text-decoration: underline;
+    transition: all 0.5s ease-in-out;
+    transition: underline 0.5s ease-in-out;
+}
+
+.hamburger {
+    position: absolute;
+    filter: invert(90%);
+}
+
+.hamburger img {
+    width: 50px;
+    margin: 10px;
+    /* display: none; */
+}
+
+.cross {
+    /* margin: 5px; */
+    position: absolute;
+
+    top: 63px;
+    left: -10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.navgo {
+    position: absolute;
+    top: -900px;
+    transition: 0.6 ease-in-out;
+}
+
+.ham:hover {
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.hide1 {
+    display: none;
+    /* position: absolute; */
+}
+
+.j {
+
+    color: black;
+    background-color: rgb(224, 221, 221);
+    border-radius: 6px;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+
+    margin-top: 0%;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+#b {
+    position: relative;
+}
+
+.ham:hover+.hide {
+    display: block;
+    transition: display 0.3s ease-in;
+}
+
+.cross:hover+.hide1 {
+    display: block;
+    position: absolute;
+}
+
+@media screen and (max-width: 926px) {
+
+    .nav {
+        /* display: none; */
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        background-color: black;
+        height: 40vh;
+        transition: 0.6 ease-in-out;
+        width: 100%;
+
+        /* display: none; */
+        position: absolute;
+    }
+
+    .innav {
+        display: block;
+        margin: auto;
+    }
+
+    .left {
+        display: flex;
+
+        /* justify-content: right; */
+        /* flex-direction: column; */
+        /* background-color: blue; */
+    }
+
+
+    .mid ul {
+        flex-direction: column;
+        width: 0;
+    }
+
+    .right {
+        display: flex;
+        justify-content: center;
+        /* background-color: rgb(255, 0, 0); */
+        margin: 20px;
+    }
+
+    .right ul {
+        flex-direction: column;
+        width: 0;
+        margin: auto;
+    }
+
+    .hamburger img {
+
+        display: inline;
+        position: absolute;
+        top: 6px;
+    }
+
+    .hamburger .cross {
+        /* display: none; */
+        /* left: 14px; */
+        position: absolute;
+        top: 6px;
+        /* filter: invert(100%); */
+        /* right: 6px; */
+    }
+
+    #b {
+        position: absolute;
+    }
+}
+
+/* font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace; */
+/* header start  */
+
+
+.con {
+    background: url('wallpaper3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100vw;
+    /* opacity: 0.9; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 34px;
+    flex-direction: column;
+
+}
+
+.con h1 {
+    /* display: ; */
+    position: relative;
+    top: -70px;
+    color: rgb(219, 213, 213);
+    /* transform: rotate(-4deg); */
+    animation-name: heading;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    /* position: relative; */
+    transform: rotate(-1deg);
+    margin-top: 200px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+@keyframes heading {
+
+
+
+    50% {
+        transform: rotate(-13deg);
+    }
+
+
+
+    100% {
+        transform: rotate(13deg);
+    }
+
+}
+
+.con h1 span {
+    color: whitesmoke;
+    /* transform: rotate(90deg); */
+}
+
+.con .maincards {
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.maincardholders {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.con .maincards h2 {
+    margin-top: -35px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.con .maincards .maincardholders .maincard {
+    width: 300px;
+    height: 300px;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 2000px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    flex-direction: column;
+    margin: 0 30px;
+    /* padding: 0 10px; */
+    padding: 3px;
+}
+
+.con .maincards .maincardholders .maincard h4 {
+    color: white;
+    font-size: 35px;
+    margin: 15px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.con .maincards .maincardholders .maincard p {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+    /* overflow-wrap: break-word; */
+}
+
+/* .con img{
+        width: 150px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        margin: 20px;
+    } */
+
+.uni{
+    display: none;
+}
+.unia {
+    display: none;
+}
+
+
+@media screen and (max-width: 1500px) {
+    body {
+        background-color: black;
+    }
+
+    .con {
+        height: 300px;
+    }
+
+    .con .maincards .maincardholders .maincard {
+        border: 4px solid rgb(255, 255, 255);
+        border-radius: 2000px;
+        margin: 10px 0;
+    }
+
+    .maincardholders {
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .con {
+        display: flex;
+        /* justify-content: center; */
+        /* flex-direction: column; */
+        /* align-items: center; */
+    }
+
+    .con h1 {
+        animation-name: vh;
+        animation-duration: 0s;
+        animation-iteration-count: 0;
+        /* position: relative; */
+        transform: none;
+        text-align: center;
+        margin-top: 140px;
+    }
+
+    /* #line{
+    color: white;
+    width: 100vw;
+    height: 4px;
+    display: block;
+    background-color: white;
+} */
+
+    .unia {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .uni a {
+        text-decoration: underline;
+        color: white;
+        font-size: 25px;
+        margin: 0 10px;
+    }
+
+    .uni a:hover {
+        color: rgb(81, 64, 64);
+        cursor: pointer;
+    }
+    .nuni{
+        display: flex;
+    }
+    .nunigo{
+        position: absolute;
+        top: -100000px;
+        transition: 0.6 ease-in-out;
+    }
+    .uni{
+        display: block;
+    }
+    .uni .ahide{
+        color: white;
+        display: block;
+    }
+    
+}

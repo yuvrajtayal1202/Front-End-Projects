@@ -1,0 +1,154 @@
+.services {
+    /* font-family: 'Roboto Mono', monospace; */
+    display: grid;
+    background: url(../img/bg8.jpg);
+    background-attachment: fixed;
+    background-size: 100%
+    
+}
+
+img {
+    width: 250px;
+}
+/* starting */
+ #img1 {
+
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+/* picture with right */
+#section1{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px;
+    margin-right: 100px;
+}
+#rt{
+width: 900px;
+display: block;
+margin-left: 200px;
+}
+
+#img2{
+display: inline;
+}
+/* picture with dowm  */
+.j {
+    display: grid;
+    grid-template-areas:
+        'aisi1 aisi1 aivi1'
+        'aisi2 aisi2 aivi2'
+        'aisi3 aisi3 aivi3'
+}
+
+.aisi1 {
+    grid-area: aisi1;
+}
+
+.aivi1 {
+    grid-area: aivi1;
+    width: 500px;
+}
+.aisi2 {
+    grid-area: aisi2;
+}
+
+.aivi2 {
+    grid-area: aivi2;
+    width: 500px;
+}
+.aisi3 {
+    grid-area: aisi3;
+}
+
+.aivi3 {
+    grid-area: aivi3;
+    width: 500px;
+}
+.h{
+    display: flex;
+    justify-content: center;
+}
+.h p{
+width: 1000px;
+}
+
+#img6{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 15px;
+    /* position: fixed; */
+    
+}
+
+
+/* last section  */
+
+
+#section5{
+/* border: 2px solid red;/ */
+margin: 30px;
+}
+.box{
+/* border: 2px solid red; */
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+
+.nes{
+    display: grid;
+    grid-template-areas: 
+    'box1 box2'
+    'box3 box4'
+    ;
+}
+.boxitem{
+    margin:20px;
+    padding: 45px 73px;
+    border-radius: 5px;
+     font-size: 35px;
+     color: whitesmoke;
+}
+
+
+
+#box1{
+    background-color: aqua;
+    box-shadow: 3px 2px 3px rgb(1, 179, 179), -3px -2px 3px rgb(1, 179, 179);
+    grid-area: box1;
+}
+#box2{
+    background-color: rgb(66, 53, 243);
+    box-shadow: 3px 2px 3px rgb(13, 23, 172), -3px -2px 3px rgb(13, 23, 172);
+    grid-area: box2;
+}
+#box3{
+    background-color: rgb(245, 56, 56);
+    box-shadow: 3px 2px 3px rgb(197, 5, 5) , -3px -2px 3px rgb(197, 5, 5);
+    grid-area: box3;
+}
+#box4{
+    background-color: rgb(236, 203, 57);
+    box-shadow: 3px 2px 3px rgb(179, 223, 22), -3px -2px 3px rgb(179, 223, 22);
+    grid-area: box4;
+}
+#fe{
+    grid-area: para;
+    display: flex;
+    justify-content: center;
+}
+#f{
+    
+    width: 70%;
+}

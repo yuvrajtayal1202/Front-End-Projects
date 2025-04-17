@@ -1,0 +1,86 @@
+
+
+
+.navigation {
+    background: url('../img/bg4.jpg');
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+    position: sticky;
+    /* font-family: 'Anek Malayalam', sans-serif; */
+    background-color: aqua;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+
+#logo {
+    width: 100px;
+    /* filter: invert(100%); */
+    border-radius: 100px;
+    margin-top: 11px;
+}
+
+#logo:hover {
+    border-radius: 200px;
+}
+
+
+/* signup */
+.signup ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.signup ul li {
+    list-style: none;
+    font-size: 35px;
+}
+
+.signup ul li a {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    /* margin-top: 10%; */
+
+}
+
+.signup ul li a:hover {
+    color: rgb(102, 84, 84);
+    text-decoration: underline;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.navitem {
+    list-style: none;
+    font-size: 1.4rem;
+    /* padding: 6px 14px; */
+    margin: 13px 8px;
+    align-items: center;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+
+}
+
+.navitem:hover {
+    background-color: black;
+    color: white;
+    padding: 4px;
+
+}

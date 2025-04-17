@@ -1,0 +1,27 @@
+.home {
+   
+    background: url(../img/bg5.jpg);
+
+    height: 510px;
+    /* font-family: 'Baloo Bhai 2', cursive; */
+
+}
+
+.home p {
+    margin-top: 16px;
+}
+
+.home button {
+    display: flex;
+
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.home button:hover {
+    background-color: rgb(37, 32, 32);
+    color: rgb(179, 170, 170);
+    text-decoration: underline;
+}

@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <title>Grocery website</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+    (function(){
+        emailjs.init("9qhunuldEbyOup4VB");
+    })();
+</script>
+<script>
+    function SendMail(){
+        var params = {
+            from_name : document.getElementById("from_name").value, 
+            email_id : document.getElementById("contact-email").value, 
+            message : document.getElementById("message").value
+        }
+        emailjs.send("service_wzfg8kk", "template_6bi43ij", params).then(function (res){
+            alert("Message Sent Successfully")
+        })
+    }
+</script>
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        swiper-slide {
+            /* text-align: center; */
+            font-size: 18px;
+            /* background: #fff; */
+            display: flex;
+            /* justify-content: center; */
+            /* align-items: center; */
+        }
+
+        swiper-slide img {
+            display: block;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header-outer">
+        <header>
+            <div class="header">
+                <div class="obove-line">
+                    <div class="line-right">
+
+                        <div class="icons">
+                            <a href="https://github.com/yuvrajtayal1202" target="_blank"><ion-icon name="logo-github"
+                                    class="hover1 icon" style="font-size: 22px;"></ion-icon></a>
+                            <a href="https://twitter.com/YuvrajTayal" target="_blank"><i
+                                    class="fab fa-twitter hover1 icon" style="font-size: 22px;"></i></a>
+                            <a href="https://www.instagram.com/yuvi_tayal_12/" target="_blank"><i
+                                    class="fab fa-instagram hover1 icon" style="font-size: 22px;"></i></a>
+                            <a href="https://www.linkedin.com/in/yuvraj-tayal-a3b976248" target="_blank"><ion-icon
+                                    name="logo-linkedin" class="hover1 icon" style="font-size: 22px;"></ion-icon></a>
+                        </div>
+                        <div class="phone-email">
+                            <span class="phone hover1"> <a href="tel:7451062733">+917451062733</a></span>
+                            <!-- <a href="tel:6031112298">603-111-2298</a>. -->
+                            <span class="email hover1"><a target="_blank" href="http://yuvrajtayal1202@gmail.com">
+                                    yuvrajtayal1202@gmail.com </a></span>
+                        </div>
+                    </div>
+                    <div class="line-left">
+                        <div class="address hover1">
+                            <ion-icon name="location-outline"></ion-icon>
+                            <span><a href="https://goo.gl/maps/JzsCGSUMSTjKLbWD6" target="_blank"> Rishikesh</a></span>
+                        </div>
+                        <div class="track hover1">
+                            <ion-icon name="bicycle-outline"></ion-icon>
+                            <span>Track order</span>
+                        </div>
+                        <div class="in hover1">
+                            <ion-icon name="person-outline"></ion-icon>
+                            <span>Log in</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mid-line">
+                    <div class="logo">
+                        <img src="img/logo-removebg-preview.png" alt="">
+                    </div>
+                    <div class="mid-line-gap">
+                        <div class="con-ham">
+
+                            <div class="ham hover1">
+                                <ion-icon name="menu" class="ham-b"></ion-icon>
+                            </div>
+                            <button class="ham-hover">
+                                Navbar
+                            </button>
+                        </div>
+                        <div class="search">
+                            <form action="#">
+                                <input type="search" name="search" id="search" placeholder="Search here...">
+                            </form>
+                            <button class="search-button hover2">
+                                <ion-icon name="search-outline"></ion-icon>
+                                Search
+                            </button>
+                        </div>
+                        <div class="cart">
+                            <button class="cart-button hover2">
+                                <ion-icon name="cart-outline"></ion-icon>
+                                Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <hr class="hr">
+                <div class="navbar-absolute">
+
+                    <div class="navbar navbargo">
+                        <nav>
+                            <ul>
+                                <li><a href="#">Home</a> </ion-icon></li>
+                                <li><a href="#">Categories</a><ion-icon name="caret-down-outline"
+                                        class="nav-drop-down"></ion-icon></li>
+                                <li><a href="#">Popular brands</a><ion-icon name="caret-down-outline"
+                                        class="nav-drop-down"></ion-icon></li>
+                                <li><a href="#">Products</a><ion-icon name="caret-down-outline"
+                                        class="nav-drop-down"></ion-icon></li>
+                                <li><a href="#">About us</a><ion-icon name="caret-down-outline"
+                                        class="nav-drop-down"></ion-icon></li>
+                                <li><a href="#">Our guarantees</a><ion-icon name="caret-down-outline"
+                                        class="nav-drop-down"></ion-icon></li>
+                                <li><a href="#">Gallery</a><ion-icon name="caret-down-outline"
+                                        class="nav-drop-down"></ion-icon></li>
+                                <li><a href="#">Vedios</a><ion-icon name="caret-down-outline"
+                                        class="nav-drop-down"></ion-icon></li>
+                                <li><a href="#">Testimonials</a><ion-icon name="caret-down-outline"
+                                        class="nav-drop-down"></ion-icon></li>
+                                <li><a href="#">Contact us</a><ion-icon name="caret-down-outline"
+                                        class="nav-drop-down"></ion-icon></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+        </header>
+    </div>
+    <div class="hero-outer">
+
+        <section class="hero">
+            <swiper-container class="mySwiper" pagination-dynamic-bullets="true" space-between="30" pagination="true"
+                pagination-clickable="true" navigation="true">
+                <swiper-slide class="slide1"></swiper-slide>
+                <swiper-slide class="slide2"></swiper-slide>
+                <swiper-slide class="slide3"></swiper-slide>
+                <swiper-slide class="slide4"></swiper-slide>
+                <swiper-slide class="slide5"></swiper-slide>
+                <swiper-slide class="slide6"></swiper-slide>
+                <swiper-slide class="slide7"></swiper-slide>
+                <swiper-slide class="slide8"></swiper-slide>
+            </swiper-container>
+        </section>
+    </div>
+    <section class="outer">
+
+        <section class="grocery">
+            <img src="img/grocery2.png" alt="">
+        </section>
+
+        <section class="food-store">
+            <h1>Food Store</h1>
+            <div class="food-store-container">
+                <div class="food-store-container-item">
+                    <img src="img/food store/snack.png" alt="" class="food-store-img1">
+                    <h3>Snacks</h3>
+                </div>
+                <div class="food-store-container-item">
+                    <img src="img/food store/breakfast-removebg-preview.png" alt="" class="food-store-img2">
+                    <h3>Breakfast Serial</h3>
+                </div>
+                <div class="food-store-container-item">
+                    <img src="img/food store/seassoning-removebg-preview.png" alt="" class="food-store-img3">
+                    <h3>Seassonings</h3>
+                </div>
+                <div class="food-store-container-item">
+                    <img src="img/food store/juices-removebg-preview.png" alt="" class="food-store-img4">
+                    <h3>Juices</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="food-beverages">
+            <h1> Food & Beverages</h1>
+            <div class="food-beverages-container">
+                <div class="food-beverages-container-item">
+                    <img src="img/food-beverages/cookies.png" alt="" class="food-beverages-img1">
+                    <h3>Cookies</h3>
+                </div>
+                <div class="food-beverages-container-item">
+                    <img src="img/food-beverages/choclates'.png" alt="" class="food-beverages-img2">
+                    <h3>Choclates</h3>
+                </div>
+                <div class="food-beverages-container-item">
+                    <img src="img/food-beverages/namkeen.png" alt="" class="food-beverages-img3">
+                    <h3>Namkeen</h3>
+                </div>
+                <!-- <div class="food-beverages-container-item">
+            <img src="img/food-beverages/tea.png" alt="" class="food-beverages-img4">
+            <h3>Tea</h3>
+        </div> -->
+                <div class="food-beverages-container-item">
+                    <img src="img/food-beverages/coffe.png" alt="" class="food-beverages-img5">
+                    <h3>Coffee</h3>
+                </div>
+                <div class="food-beverages-container-item">
+                    <img src="img/food-beverages/health drink.png" alt="" class="food-beverages-img6">
+                    <h3>Health Drinks</h3>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="baby-products">
+            <img src="img/baby products.png" alt="">
+        </section>
+
+        <section class="our-gurrantes">
+            <h1>Our Guarantees</h1>
+            <div class="our-gurrantes-container">
+                <div class="our-gurrantes-container-item">
+                    <img src="img/our gurrantes/delivery.png" alt="" class="our-gurrantes-img1">
+                </div>
+                <div class="our-gurrantes-container-item">
+                    <img src="img/our gurrantes//on-time.png" alt="" class="our-gurrantes-img2">
+                </div>
+                <div class="our-gurrantes-container-item">
+                    <img src="img/our gurrantes/quality.png" alt="" class="our-gurrantes-img3">
+                </div>
+                <div class="our-gurrantes-container-item">
+                    <img src="img/our gurrantes/return.png" alt="" class="our-gurrantes-img4">
+                </div>
+            </div>
+        </section>
+        <section class="popular-brands">
+            <h1>Popular Brands</h1>
+            <div class="popular-brands-container">
+                <div class="popular-brands-container-item">
+                    <img src="img/popular brands/amul-removebg-preview.png " alt="" class="popular-brands-img1">
+                </div>
+                <div class="popular-brands-container-item">
+                    <img src="img/popular brands/dabur-removebg-preview.png" alt="" class="popular-brands-img2">
+                </div>
+                <div class="popular-brands-container-item">
+                    <img src="img/popular brands/himalyan-removebg-preview.png" alt="" class="popular-brands-img3">
+                </div>
+                <!-- <div class="popular-brands-container-item">
+            <img src="img/popular brands/lux-removebg-preview.png" alt="" class="popular-brands-img4">
+        </div> -->
+                <div class="popular-brands-container-item">
+                    <img src="img/popular brands/nestle-removebg-preview.png" alt="" class="popular-brands-img5">
+                </div>
+                <div class="popular-brands-container-item">
+                    <img src="img/popular brands/parle-removebg-preview.png" alt="" class="popular-brands-img6">
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="products">
+        <div class="product-heading-view">
+            <h1>Products</h1>
+            <h4><a href="">View All <ion-icon name="arrow-forward-outline"></ion-icon></a></h4>
+        </div>
+
+        <swiper-container class="mySwiper products-container" space-between="30" slides-per-view="5" navigation="true">
+            <swiper-slide class="product-container-item">
+                <img src="img/products/ghee-removebg-preview.png" alt="" class="product-img1">
+                <h2>Amul Ghee</h2>
+                <h4>1000 Grams</h4>
+                <h3>₹485</h3>
+                <button class="add">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    Add
+                </button>
+            </swiper-slide>
+            <swiper-slide class="product-container-item">
+                <div class="h">
+
+                    <img src="img/products/glucose.png" alt="" class="product-img2">
+                </div>
+                <h2>Glucon-D glucose</h2>
+                <h4>5000 Grams</h4>
+                <h3>₹75</h3>
+                <button class="add">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    Add
+                </button>
+            </swiper-slide>
+            <swiper-slide class="product-container-item">
+                <img src="img/products/surf-removebg-preview (1).png" alt="" class="product-img3">
+                <h2>Surf Excel</h2>
+                <h4>2000 Grams</h4>
+                <h3>₹294</h3>
+                <button class="add">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    Add
+                </button>
+            </swiper-slide>
+            <swiper-slide class="product-container-item">
+                <img src="img/products/butter.png" alt="" class="product-img4">
+                <h2>Amul butter</h2>
+                <h4>100 Grams</h4>
+                <h3>₹93</h3>
+                <button class="add">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    Add
+                </button>
+            </swiper-slide>
+            <swiper-slide class="product-container-item">
+                <img src="img/products/nevia.png" alt="" class="product-img5">
+                <h2>Nevia Perfium</h2>
+                <h4>600ml</h4>
+                <h3>₹148</h3>
+                <button class="add">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    Add
+                </button>
+            </swiper-slide>
+            <swiper-slide class="product-container-item">
+                <img src="img/products/dahi.png" alt="" class="product-img6">
+                <h2>Amul Masti Dahi</h2>
+                <h4>500ml </h4>
+                <h3>₹40</h3>
+                <button class="add">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    Add
+                </button>
+            </swiper-slide>
+            <swiper-slide class="product-container-item">
+                <img src="img/products/all-out.png" alt="" class="product-img7">
+                <h2>All Out</h2>
+                <h4>60ml</h4>
+                <h3>₹46</h3>
+                <button class="add">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    Add
+                </button>
+            </swiper-slide>
+            <swiper-slide class="product-container-item">
+                <img src="img/products/soap.png" alt="" class="product-img8">
+                <h2>White Dove soap</h2>
+                <h4>200 Grams</h4>
+                <h3>₹98</h3>
+                <button class="add">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    Add
+                </button>
+            </swiper-slide>
+            <swiper-slide class="product-container-item">
+                <img src="img/products/choclate.png" alt="" class="product-img9">
+                <h2>Silk Oreo</h2>
+                <h4>130 Grams</h4>
+                <h3>₹80</h3>
+                <button class="add">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    Add
+                </button>
+            </swiper-slide>
+            <swiper-slide class="product-container-item">
+                <img src="img/products/oraganoes.png" alt="" class="product-img10">
+                <h2>Keya Oraganoes</h2>
+                <h4>60 Grams</h4>
+                <h3>₹74</h3>
+                <button class="add">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    Add
+                </button>
+            </swiper-slide>
+            <swiper-slide class="product-container-item">
+                <img src="img/products/tea.png" alt="" class="product-img11">
+                <h2>Red Label Tea</h2>
+                <h4>60 Grams</h4>
+                <h3>₹74</h3>
+                <button class="add">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    Add
+                </button>
+            </swiper-slide>
+            <swiper-slide class="product-container-item">
+                <img src="img/products/lays.png" alt="" class="product-img12">
+                <h2>Lays Barbeque</h2>
+                <h4>10 Grams</h4>
+
+                <h3>₹14</h3>
+                <button class="add">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    Add
+                </button>
+
+            </swiper-slide>
+        </swiper-container>
+        </div>
+    </section>
+
+    <section class="tea-time">
+        <img src="img/tea-time template.png" alt="">
+    </section>
+
+
+    <section class="health-hygine">
+        <h1>Health & Hygine</h1>
+        <div class="health-hygine-container">
+            <div class="health-hygine-container-item">
+                <img src="img/health-hygine/dentala.png" alt="" class="health-hygine-img1">
+                <h3>Dental Hygine</h3>
+            </div>
+            <div class="health-hygine-container-item">
+                <img src="img/health-hygine/haira.png" alt="" class="health-hygine-img2">
+                <h3>Hair Hygine</h3>
+            </div>
+            <div class="health-hygine-container-item">
+                <img src="img/health-hygine/homea.png" alt="" class="health-hygine-img3">
+                <h3>Home Hygine</h3>
+            </div>
+            <div class="health-hygine-container-item">
+                <img src="img/health-hygine/personala.png" alt="" class="health-hygine-img4">
+                <h3>Personal health</h3>
+            </div>
+        </div>
+    </section>
+    <!-- <h3></h3> -->
+    <section class="contact">
+        <h1>Contact Us</h1>
+        <!-- <div class="content">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, assumenda ad, magnam pariatur, enim
+                nemo aut non repellendus deleniti hic adipisci ipsa rem est nulla corrupti mollitia excepturi quaerat
+                .</p>
+
+        </div> -->
+        <div class="container">
+            <div class="contact-info">
+                <div class="contact-box">
+                    <div class="icon">
+                        <ion-icon name="map-outline"></ion-icon>
+                    </div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <a href="https://goo.gl/maps/JzsCGSUMSTjKLbWD6" target="_blank">
+                            <p> Swem Sewak Niwas, Lane no.9 <br>Ganga Nagar, Uttrakhand, <br> 249201 </p>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <div class="icon">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </div>
+                    <div class="text">
+                        <h3>phone no.</h3>
+                        <p><a href="tel:7451062733">+917451062733</a></p>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <div class="icon">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </div>
+                    <div class="text">
+                        <h3>E-mail</h3>
+                        <p><a target="_blank" href="http://yuvrajtayal1202@gmail.com"> yuvrajtayal1202@gmail.com </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <div class="icon">
+                        <ion-icon name="analytics-outline"></ion-icon>
+                    </div>
+                    <div class="text">
+                        <h3>Social Media</h3>
+                        <p>
+                            <a href="https://github.com/yuvrajtayal1202" target="_blank"><ion-icon name="logo-github"
+                                    class="hover1" style="font-size: 22px;"></ion-icon></a>
+                            <a href="https://twitter.com/YuvrajTayal" target="_blank"><i class="fab fa-twitter hover1"
+                                    style="font-size: 22px;"></i></a>
+                            <a href="https://www.instagram.com/yuvi_tayal_12/" target="_blank"><i
+                                    class="fab fa-instagram hover1" style="font-size: 22px;"></i></a>
+                            <a href="https://www.linkedin.com/in/yuvraj-tayal-a3b976248" target="_blank"><ion-icon
+                                    name="logo-linkedin" class="hover1 " style="font-size: 22px;"></ion-icon></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h2>Reach us</h2>
+                <div class="form">
+                    <div class="input-box">
+                        <input type="text" required id="from_name">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" required id="contact-email">
+                        <span> Email-ID</span>
+                    </div>
+
+                    <div class="input-box">
+                        <textarea name="" id="" cols="30" rows="2" ></textarea>
+                        <span id="message">Type your Message..</span>
+                    </div>
+                    <div class="input-box">
+                        <button id="submit-button" onclick="SendMail()">Submit</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d862.9521015759626!2d78.28271962317191!3d30.09967303147709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39093df2aad8ac97%3A0x30e81a691980ac24!2sMaunashram!5e0!3m2!1sen!2sin!4v1682182328127!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+    <b>
+        <hr>
+    </b>
+    <section class="pa1">
+        <footer>
+            <div class="col">
+                <img class="logo8" src="img/logo-removebg-preview.png" alt="sorry" style="width: 20rem;">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong> lane no.9,Ganga nagar,rishikesh,Uttrakhand</p>
+                <p><strong>Phone:</strong> (+91)7451062733,(+91)8077063214</p>
+                <p><strong>Hours</strong> 10am - 8pm, mon - sat </p>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="icon">
+                        <a href="https://github.com/yuvrajtayal1202" target="_blank"><ion-icon name="logo-github"
+                                class="hover1" style="font-size: 22px;"></ion-icon></a>
+                        <a href="https://twitter.com/YuvrajTayal" target="_blank"><i class="fab fa-twitter hover1"
+                                style="font-size: 22px;"></i></a>
+                        <a href="https://www.instagram.com/yuvi_tayal_12/" target="_blank"><i
+                                class="fab fa-instagram hover1" style="font-size: 22px;"></i></a>
+                        <a href="https://www.linkedin.com/in/yuvraj-tayal-a3b976248" target="_blank"><ion-icon
+                                name="logo-linkedin" class="hover1 " style="font-size: 22px;"></ion-icon></a>
+                        </p>
+                        <!-- <i class="fab fa-facebook-f"></i> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+
+
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="#">Sign In </a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Oreder</a>
+                <a href="#">Help</a>
+            </div>
+
+
+            <div class="col install">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <img src="img/pay/app.jpg" alt="">
+                    <img src="img/pay/play.jpg" alt="">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img src="img/pay/pay.png" alt="">
+            </div>
+            <div class="copyright">
+            </div>
+        </footer>
+        <p id="u">2023, Yuvraj Tayal - HTML CSS JS Grocery Website</p>
+    </section>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+<script src="script.js"></script>
+<script>
+
+    </script>
+
+</html>
