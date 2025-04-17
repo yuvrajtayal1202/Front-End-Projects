@@ -19,8 +19,8 @@ This repository is part of my personal roadmap to become top 1% developer, and I
 | 🎧 Music Player | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/Music-Player/) | HTML, CSS, JavaScript | ✅ Completed |
 | 🧑‍⚕️ BMI Calculator | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/BMI-Calculator/02_BMI_calculator.html) | HTML, CSS, JavaScript | ✅ Completed |
 | 🧃 Grocery Website | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/Grocery) | HTML, CSS | ✅ Completed |
-| ⚡ Techno | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/techno) | HTML, CSS | ✅ Completed |
-| 🧑‍⚕️ Dany's Bakery | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/dany) | HTML, CSS| ✅ Completed |
+| ⚡ Techno | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/techno/index.html) | HTML, CSS | ✅ Completed |
+| 🧁 Dany's Bakery | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/dany/index.html) | HTML, CSS| ✅ Completed |
 
 ---
 
