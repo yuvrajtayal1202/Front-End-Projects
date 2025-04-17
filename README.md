@@ -11,7 +11,7 @@ This repository is part of my personal roadmap to become top 1% developer, and I
 
 | 📁 Project | 🔗 Live Demo | 🛠️ Tech Stack | 📌 Status |
 |------------|---------------|----------------|------------|
-| 📄 Text Utils | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/text-utils/build/) | HTML, CSS, JavaScript, React | 🛠️ In Progress |
+| 📄 Text Utils | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/text-utils/) | HTML, CSS, JavaScript, React | 🛠️ In Progress |
 | ✅ To-Do App | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/To-Do-list/) | HTML, CSS, JavaScript | ✅ Completed |
 | ⌚ Stop Watch | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/Stop-Watch/) | HTML, CSS, JavaScript | ✅ Completed |
 | 📱 Calculator | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/calculator/) | HTML, CSS, JavaScript | ✅ Completed |
