@@ -14,11 +14,10 @@ This repository is part of my personal roadmap to become top 1% developer, and I
 | 📄 Text Utils | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/text-utils/build/) | HTML, CSS, JavaScript, React | 🛠️ In Progress |
 | ✅ To-Do App | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/To-Do-list/) | HTML, CSS, JavaScript | ✅ Completed |
 | ⌚ Stop Watch | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/Stop-Watch/) | HTML, CSS, JavaScript | ✅ Completed |
-| 🕰️ Clock | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/Clock/) | HTML, CSS, JavaScript | ✅ Completed |
 | 📱 Calculator | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/calculator/) | HTML, CSS, JavaScript | ✅ Completed |
 | ⌛ Age Calculator | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/age_cal/) | HTML, CSS, JavaScript | ✅ Completed |
 | 🎧 Music Player | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/Music-Player/) | HTML, CSS, JavaScript | ✅ Completed |
-| 🧑‍⚕️ BMI Calculator | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/BMI-Calculator/) | HTML, CSS, JavaScript | ✅ Completed |
+| 🧑‍⚕️ BMI Calculator | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/BMI-Calculator/02_BMI_calculator.html) | HTML, CSS, JavaScript | ✅ Completed |
 
 ---
 
