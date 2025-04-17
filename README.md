@@ -12,7 +12,7 @@ This repository is part of my personal roadmap to become 1 % Developer, and I'm 
 | 📁 Project | 🔗 Live Demo | 🛠️ Tech Stack | 📌 Status |
 |------------|---------------|----------------|------------|
 | 📄 Text Utils | [View](https://yourusername.github.io/front-end-projects/projects/text-utils/) | HTML, CSS, JavaScript, React | 🛠️ In Progress |
-| ✅ To-Do App | [View](https://YuvrajTayal1202.github.io/front-end-projects/projects/To-Do-list/) | HTML, CSS, JavaScript | ✅ Completed |
+| ✅ To-Do App | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/To-Do-list/) | HTML, CSS, JavaScript | ✅ Completed |
 | ⌚ Stop Watch | [View](https://yourusername.github.io/front-end-projects/projects/Stop-Watch/) | HTML, CSS, JavaScript | ✅ Completed |
 | 🕰️ clock | [View](https://yourusername.github.io/front-end-projects/projects/Clock/) | HTML, CSS, JavaScript | ✅ Completed |
 | 📱 Calculator | [View](https://yourusername.github.io/front-end-projects/projects/calculator/) | HTML, CSS, JavaScript | ✅ Completed |
