@@ -32,7 +32,7 @@ function App() {
   }
   
   return (
-    <>
+    <div className="container">
       <h1>📃 To Do App</h1>
       <div className="con">
         <input
@@ -50,7 +50,7 @@ function App() {
       </div>
 
       <ul>
-      <button onClick={clearCompleted}>Clear Completed</button>
+      {/* <button onClick={clearCompleted}>Clear Completed</button> */}
 
         {todos.map((item, index) => (
           <li
@@ -75,7 +75,7 @@ function App() {
           </li>
         ))}
       </ul>
-    </>
+    </div>
   );
 }
 

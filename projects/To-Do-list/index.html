@@ -21,50 +21,50 @@
       </ul>
     </div>
 
-
     <script>
       const search = document.querySelector("#search");
       const task_con = document.querySelector(".task-con");
 
+      // Pressing Enter will also add the task
+      search.addEventListener("keydown", function (e) {
+        if (e.key === "Enter") {
+          addTask();
+        }
+      });
+
       function addTask() {
-          if (search.value == "") {
-              alert("Add Your Task");
-            } else {
-                
-                let li = document.createElement("li");
-                let c = document.createElement("span");
-                li.innerText = search.value;
-                task_con.appendChild(li);
-                
-                c.innerHTML = "&#10006;";
+        if (search.value == "") {
+          alert("Add Your Task");
+        } else {
+          let li = document.createElement("li");
+          let c = document.createElement("span");
+          li.innerText = search.value;
+          task_con.appendChild(li);
+          c.innerHTML = "&#10006;";
           li.appendChild(c);
         }
-    search.value = "";
-    saveTask();
-}
-
-
-task_con.addEventListener("click", function (e) {
-    if (e.target.tagName === "LI") {
-        e.target.classList.toggle("closed");
-        console.log("yes")
+        search.value = "";
         saveTask();
-    }
-    else if(e.target.tagName === "SPAN"){
-        e.target.parentElement.remove();
-        saveTask();
-          }
-        });
-      
-        
-        function saveTask(){
-            localStorage.setItem("data", task_con.innerHTML)
-        }
+      }
 
-        function showTask(){
-            task_con.innerHTML = localStorage.getItem("data")
+      task_con.addEventListener("click", function (e) {
+        if (e.target.tagName === "LI") {
+          e.target.classList.toggle("closed");
+          saveTask();
+        } else if (e.target.tagName === "SPAN") {
+          e.target.parentElement.remove();
+          saveTask();
         }
-        showTask()
+      });
+
+      function saveTask() {
+        localStorage.setItem("data", task_con.innerHTML);
+      }
+
+      function showTask() {
+        task_con.innerHTML = localStorage.getItem("data");
+      }
+      showTask();
     </script>
   </body>
 </html>
