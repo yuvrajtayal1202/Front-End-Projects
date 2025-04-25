@@ -11,8 +11,8 @@ This repository is part of my personal roadmap to become top 1% developer, and I
 
 | 📁 Project | 🔗 Live Demo | 🛠️ Tech Stack | 📌 Status |
 |------------|---------------|----------------|------------|
-| 💭 Bg-Changer | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/BgChanger/) | HTML, CSS, JavaScript, React | ✅ Completed |
-| 📄 Text Utils | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/text-utils/) | HTML, CSS, JavaScript, React | ✅ Completed |
+<!-- | 💭 Bg-Changer | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/BgChanger/) | HTML, CSS, JavaScript, React | ✅ Completed | -->
+| 📄 Text Utils | [View](https://front-end-projects-phc8jizs5-yuvrajtayal1202s-projects.vercel.app/) | HTML, CSS, JavaScript, React | ✅ Completed |
 | ✅ To-Do App | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/To-Do-list/) | HTML, CSS, JavaScript | ✅ Completed |
 | ⌚ Stop Watch | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/Stop-Watch/) | HTML, CSS, JavaScript | ✅ Completed |
 | 📱 Calculator | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/calculator/) | HTML, CSS, JavaScript | ✅ Completed |
