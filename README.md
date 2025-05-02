@@ -1,6 +1,6 @@
 # 🌐 Front-End Projects
 
-Welcome to my collection of front-end projects built using **HTML**, **CSS**, **JavaScript** and **React**.  
+Welcome to my collection of my Early stage front-end projects built using **HTML**, **CSS**, **JavaScript** .  
 These projects reflect my hands-on journey in mastering web development fundamentals.
 
 This repository is part of my personal roadmap to become top 1% developer, and I'm currently in the early stages — focused on building real-world mini apps and strengthening my front-end foundation.
@@ -11,7 +11,7 @@ This repository is part of my personal roadmap to become top 1% developer, and I
 
 | 📁 Project | 🔗 Live Demo | 🛠️ Tech Stack | 📌 Status |
 |------------|---------------|----------------|------------|
-| 📄 Text Utils | [View](https://front-end-projects-phc8jizs5-yuvrajtayal1202s-projects.vercel.app/) | HTML, CSS, JavaScript, React | ✅ Completed |
+<!-- | 📄 Text Utils | [View](https://front-end-projects-phc8jizs5-yuvrajtayal1202s-projects.vercel.app/) | HTML, CSS, JavaScript, React | ✅ Completed | -->
 | ✅ To-Do App | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/To-Do-list/) | HTML, CSS, JavaScript | ✅ Completed |
 | ⌚ Stop Watch | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/Stop-Watch/) | HTML, CSS, JavaScript | ✅ Completed |
 | 📱 Calculator | [View](https://YuvrajTayal1202.github.io/Front-End-Projects/projects/calculator/) | HTML, CSS, JavaScript | ✅ Completed |
